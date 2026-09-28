@@ -604,6 +604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38c164083cf0a446aff590b2527df2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HelloWorld
+  PlayerName: 
 --- !u!1 &980948756
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,14 +1,20 @@
 using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+{   
+    [Header("Player Settings")]
+    [Tooltip("Enter the player's name here")]
+    [SerializeField] private string PlayerName;
+    [Tooltip("Enter the score of the player here")]
+    [Range(0, 100)]
+    [SerializeField] private int PlayerScore;
+    [HideInInspector] public bool isPlayer;
+
     void Start()
     {
-        Debug.Log("Hello World");
+        Debug.Log("Hello " + PlayerName);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
